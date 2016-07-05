@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.ldzs.recyclerlibrary.PullToRefreshRecyclerView;
 import com.ldzs.recyclerlibrary.anim.SlideInLeftAnimator;
 import com.ldzs.recyclerlibrary.callback.OnItemClickListener;
+import com.ldzs.recyclerlibrary.header.BaseRefresh;
 
 import java.util.ArrayList;
 
@@ -109,6 +110,7 @@ public class PullToRefreshActivity extends AppCompatActivity {
         }
 
         //初始设置2个,考虑其不满一屏加载状态
+        //mRecyclerView.setFooterComplete();
         mAdapter = new NormalAdapter(this, data);
         mRecyclerView.setAdapter(mAdapter);
     }

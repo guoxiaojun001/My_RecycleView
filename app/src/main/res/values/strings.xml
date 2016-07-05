@@ -21,6 +21,7 @@
         <item>AnimationGridActivity</item>
         <item>AnimationListActivity</item>
         <item>RecycleGridViewActivity</item>
+        <item>TreeAdapterViewActivity</item>
 
     </string-array>
 

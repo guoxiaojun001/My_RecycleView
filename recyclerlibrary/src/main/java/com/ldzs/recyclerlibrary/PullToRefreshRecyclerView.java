@@ -183,6 +183,11 @@ public class PullToRefreshRecyclerView extends RecyclerView {
         mRefreshFooter.setState(BaseRefresh.STATE_FINISH);
     }
 
+
+    public void setFooterState(int state) {
+        mRefreshFooter.setState(BaseRefresh.STATE_FINISH);
+    }
+
     /**
      * 设置底部重试
      *
@@ -201,7 +206,8 @@ public class PullToRefreshRecyclerView extends RecyclerView {
         } else if (layout instanceof LinearLayoutManager) {
             LinearLayoutManager layoutManager = (LinearLayoutManager) layout;
             int orientation = layoutManager.getOrientation();//与系统方向一致
-            mSimpleItemDecoration.setDivideMode(OrientationHelper.HORIZONTAL == orientation ? SimpleItemDecoration.HORIZONTAL : SimpleItemDecoration.VERTICAL);
+            mSimpleItemDecoration.setDivideMode(OrientationHelper.HORIZONTAL ==
+                    orientation ? SimpleItemDecoration.HORIZONTAL : SimpleItemDecoration.VERTICAL);
         }
     }
 

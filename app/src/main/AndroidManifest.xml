@@ -28,7 +28,9 @@
         <activity android:name=".adapteranimal.AnimationGridActivity"/>
         <activity android:name=".adapteranimal.AnimationListActivity"/>
 
-        <activity android:name="RecycleGridViewActivity"/>
+        <activity android:name=".RecycleGridViewActivity"/>
+
+        <activity android:name=".TreeAdapterViewActivity"/>
     </application>
 
 </manifest>

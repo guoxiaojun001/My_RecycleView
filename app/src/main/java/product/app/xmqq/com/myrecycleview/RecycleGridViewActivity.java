@@ -49,7 +49,7 @@ public class RecycleGridViewActivity extends AppCompatActivity {
 //		mRecyclerView.addItemDecoration(new DividerItemDecoration(
 //				this, LinearLayout.HORIZONTAL));
 
-		mRecyclerView.addItemDecoration(new DividerGridItemDecoration(this));
+//		mRecyclerView.addItemDecoration(new DividerGridItemDecoration(this));
 
 
 		// 设置item动画

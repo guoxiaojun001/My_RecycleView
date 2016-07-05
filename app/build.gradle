@@ -26,4 +26,5 @@ dependencies {
     compile project(path: ':recyclerlibrary')
 
     compile 'com.google.code.gson:gson:2.2.4'
+    compile 'io.reactivex:rxandroid:0.24.0'
 }

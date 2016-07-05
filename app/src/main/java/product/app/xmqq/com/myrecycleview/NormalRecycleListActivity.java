@@ -119,6 +119,12 @@ public class NormalRecycleListActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
 
+                    case 10:
+                        intent = new Intent(
+                                NormalRecycleListActivity.this,TreeAdapterViewActivity.class);
+                        startActivity(intent);
+                        break;
+
                 }
             }
         });
